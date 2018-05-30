@@ -61,8 +61,8 @@ def readDataAWS(plantName, unitName):
     #from import from the AWS server
     
     server = mysql.connector.connect(user="widap", password="widap123", 
-                              host="ip-10-2-0-45",
-                              database="widap")#,port=3306)
+                              host="widapdb-cluster-1.cluster-cpyvkv2lasim.us-west-1.rds.amazonaws.com",
+                              database="widap",port=3306)
 #host="widapdb-cluster-1.cluster-cpyvkv2lasim.us-west-1.rds.amazonaws.com"
     query = server.cursor(buffered=True)
     #startdate = datetime.date(2001,1,1)
