@@ -6,3 +6,4 @@ mysql-connector-python
 scipy==1.1.0
 mysqlclient==1.3.12
 IPython
+sqlite3
